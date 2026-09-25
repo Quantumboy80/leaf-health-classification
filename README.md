@@ -211,14 +211,37 @@ YOLOv8   ███████████████████████�
 YOLOv9   █████████████████████████████████████████ 89.7%
 YOLOv11  ██████████████████████████████████████████ 92.3%
 
-##🔍 Key Findings
+## 🔍 Key Findings
 
 The experimental results reported in the study indicate that:
 
-YOLOv11 achieved the highest reported mAP@0.5 of 92.3%.
-YOLOv11 achieved the highest reported precision, recall, and F1-score among the evaluated models.
-YOLOv8 achieved the highest reported inference speed at 85 FPS.
-YOLOv9 provided an intermediate performance profile across the evaluated metrics.
-YOLOv11 demonstrated stronger performance in detecting subtle disease-related patterns.
-Model performance can be affected by environmental conditions and occlusion.
-The results demonstrate a trade-off between detection accuracy, robustness, computational requirements, and inference speed.
+- **YOLOv11 achieved the highest reported mAP@0.5 of 92.3%.**
+- YOLOv11 achieved the highest reported precision, recall, and F1-score among the evaluated models.
+- **YOLOv8 achieved the highest reported inference speed at 85 FPS.**
+- YOLOv9 provided an intermediate performance profile across the evaluated metrics.
+- YOLOv11 demonstrated stronger performance in detecting subtle disease-related patterns.
+- Model performance can be affected by environmental conditions and occlusion.
+- The results demonstrate a trade-off between **detection accuracy, robustness, computational requirements, and inference speed**.
+
+---
+
+## 📁 Repository Structure
+
+```text
+leaf-health-classification/
+│
+├── yolo9/
+│   └── content/
+│       └── runs/
+│           ├── detect/
+│           └── segmentation/
+│
+├── yolo11/
+│   └── content/
+│       └── runs/
+│           ├── detect/
+│           └── segmentation/
+│
+├── README.md
+│
+└── bioconf_biospectrum2026_01001.pdf
