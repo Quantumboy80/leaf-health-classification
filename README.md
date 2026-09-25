@@ -210,18 +210,29 @@ Measures inference speed and provides an indication of real-time detection capab
 YOLOv8   ████████████████████████████████████████ 87.5%
 YOLOv9   █████████████████████████████████████████ 89.7%
 YOLOv11  ██████████████████████████████████████████ 92.3%
+```
+
+### Inference Speed
+
+```text
+YOLOv8   ██████████████████████████████████████████ 85 FPS
+YOLOv9   █████████████████████████████████████ 72 FPS
+YOLOv11  ████████████████████████████████████ 68 FPS
+```
+
+---
 
 ## 🔍 Key Findings
 
 The experimental results reported in the study indicate that:
 
-- **YOLOv11 achieved the highest reported mAP@0.5 of 92.3%.**
-- YOLOv11 achieved the highest reported precision, recall, and F1-score among the evaluated models.
-- **YOLOv8 achieved the highest reported inference speed at 85 FPS.**
-- YOLOv9 provided an intermediate performance profile across the evaluated metrics.
-- YOLOv11 demonstrated stronger performance in detecting subtle disease-related patterns.
-- Model performance can be affected by environmental conditions and occlusion.
-- The results demonstrate a trade-off between **detection accuracy, robustness, computational requirements, and inference speed**.
+- **YOLOv11** achieved the highest reported **mAP@0.5 of 92.3%**.
+- **YOLOv11** achieved the highest reported precision, recall, and F1-score among the evaluated models.
+- **YOLOv8** achieved the highest reported inference speed at **85 FPS**.
+- **YOLOv9** provided an intermediate performance profile across the evaluated metrics.
+- **YOLOv11** demonstrated stronger performance in detecting subtle disease-related patterns.
+- Model performance can be affected by environmental conditions and leaf occlusion.
+- The results demonstrate a clear trade-off between detection accuracy, robustness, computational requirements, and inference speed.
 
 ---
 
@@ -245,3 +256,132 @@ leaf-health-classification/
 ├── README.md
 │
 └── bioconf_biospectrum2026_01001.pdf
+```
+
+### Experimental Outputs
+
+The repository contains experimental outputs generated during model training and evaluation, including:
+
+- Confusion matrices
+- Precision-Recall curves
+- F1 curves
+- Precision curves
+- Recall curves
+- Training results
+- Validation predictions
+- Training batch visualizations
+- Model weights
+- Performance plots
+
+---
+
+## 📄 Research Paper
+
+**Comparative Performance of Next-Gen YOLO Models for Leaf Health Classification in Ornamental Species**  
+*Published in:* BIO Web of Conferences  
+*Volume:* 228  
+*Article:* 01001  
+*Year:* 2026  
+*DOI:* [10.1051/bioconf/202622801001](https://doi.org/10.1051/bioconf/202622801001)
+
+The complete research paper is included in this repository as `bioconf_biospectrum2026_01001.pdf`.
+
+---
+
+## 👥 Authors & Collaboration
+
+The research was conducted collaboratively by:
+
+- Swati Chowdhuri
+- Sriparna Banerjee
+- Tiyasha Mondal
+- Sayan Som
+- Shuvankar Debnath
+
+The work involved collaborative research, model experimentation, performance evaluation, analysis, documentation, and preparation of the research publication.
+
+---
+
+## 👨‍💻 My Contribution
+
+As a contributor and co-author, my involvement included participation in the development and research workflow surrounding the comparative evaluation of YOLO models for ornamental leaf health classification.
+
+My contributions included work related to:
+
+- Model experimentation and evaluation
+- Comparative analysis of YOLO model performance
+- Analysis of experimental results
+- Research documentation
+- Contribution to the research paper and project development
+
+*This repository represents a collaborative research project and is maintained here as a portfolio representation of my involvement in the work.*
+
+---
+
+## 🛠️ Technologies & Tools
+
+- **Programming:** Python 3.x
+- **Deep Learning:** PyTorch, Ultralytics YOLO
+- **Computer Vision:** OpenCV, Image Processing, Object Detection
+- **Models:** YOLOv8, YOLOv9, YOLOv11
+- **Techniques:** Data Augmentation, Transfer Learning, Disease Localization, Performance Evaluation
+
+---
+
+## 🚀 Future Work
+
+Potential directions for extending this research include:
+
+- Evaluation using multispectral and hyperspectral imagery
+- Expansion to larger and more diverse ornamental-plant datasets
+- Improved handling of severe leaf occlusion
+- Deployment on edge and mobile devices
+- Expansion to additional ornamental plant species
+- Evaluation of newer YOLO architectures
+- Fine-grained disease-stage classification
+- Real-time plant health monitoring systems
+- Development of lightweight models for resource-constrained environments
+
+---
+
+## 📚 Citation
+
+If you use this research or repository in your work, please cite the published paper:
+
+```bibtex
+@article{chowdhuri2026leaf,
+  title={Comparative performance of next-Gen YOLO models for leaf health classification in ornamental species},
+  author={Chowdhuri, Swati and Banerjee, Sriparna and Mondal, Tiyasha and Som, Sayan and Debnath, Shuvankar},
+  journal={BIO Web of Conferences},
+  volume={228},
+  pages={01001},
+  year={2026},
+  doi={10.1051/bioconf/202622801001}
+}
+```
+
+---
+
+## 🔗 References
+
+- [Research Paper DOI](https://doi.org/10.1051/bioconf/202622801001)
+- [Ultralytics YOLO Repository](https://github.com/ultralytics/ultralytics)
+- [Python Official Site](https://www.python.org/)
+- [PyTorch Official Site](https://pytorch.org/)
+
+---
+
+## 📜 License
+
+This repository contains research code, experimental outputs, model artifacts, and the associated research paper.  
+Please refer to the publication terms and the individual components of the repository before redistributing datasets, trained model weights, or research materials.
+
+---
+
+## ⭐ Acknowledgement
+
+We acknowledge the support and guidance received during the development of this research work and thank all collaborators who contributed to the study.
+
+<p align="center">
+  🌿 <b>Deep Learning × Computer Vision × Plant Health</b> 🌿
+</p>
